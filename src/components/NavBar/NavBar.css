@@ -1,0 +1,33 @@
+ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.linkBtn{
+    text-decoration: none;
+    color: rgb(35, 138, 138);
+}
+.linkBtn:hover{
+    text-decoration: underline;
+}
+.topLogo{
+    height: 200px;
+    width:auto;
+    display: flex;
+    align-items: center;
+}
+.topImg{
+    display: flex;
+    justify-content: center;
+}
+
+.navBar{
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(35, 138, 138);
+    border-radius: 10px;
+    width:auto;
+    justify-content: center;
+}
+

@@ -1,0 +1,26 @@
+.card{
+    width: 200px;
+    height: 400px;
+    color:rgb(35, 138, 138);
+    border-color: #fff;
+    border-style: solid;
+    border-radius: 10px;
+    margin:5px;
+    
+}
+.card-img{
+    width: 200px;
+    border-radius: 10px 10px 0 0;
+}
+.card-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card:hover {
+    background-color:  #3b414d;
+    cursor:pointer;
+    transform: scale(1.05);
+
+}
