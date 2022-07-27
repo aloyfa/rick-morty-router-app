@@ -67,7 +67,7 @@ const fetchLocation = (url) => {
       <NavBar/>
       <Pagination prev={info.prev} next={info.next} onPrevious={onPrevious} onNext={onNext} />
         <Routes>
-          <Route path= "/" element= {<Main/>}/>
+          <Route path= "/" element= {<Characters characters={characters} />}/>
           <Route path= "/characters" element= {<Characters characters={characters} />}/>
           <Route path= "/location" element= {<Location location={location}/>}/>
           <Route path= "*" element={<NotFoundPage/>} />

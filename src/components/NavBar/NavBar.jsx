@@ -7,11 +7,6 @@ const NavBar = () => {
     <div className="navBar">
           <ul>
               <li>
-                  <NavLink className="linkBtn" to= "/">
-                    Home
-                </NavLink>
-              </li>
-              <li>
                   <NavLink className="linkBtn" to= "/characters">
                     Characters
                 </NavLink>
